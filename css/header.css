@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+nav{
+    position: relative;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px 0px rgba(108, 52, 40, 0.10);
+    z-index: 1000;
+}
+
+.navbar-nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+}
+
+.navbar-toggler svg {
+    color: #6C3428;
+   
+}
+
+.navbar-expand-lg .nav-link {
+    color: #BE8C63;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    height: 47px;
+    margin-right: 24px;
+}
+
+.navbar-expand-lg .nav-link:hover {
+    color: #6C3428;
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-logo img {
+    width: 177px;
+    height: 47px;
+    padding-left: 24px;
+}
+
+ /* End Navbar Section */
+
+
+ /* Start Header section */
+ main {
+    top: 0;
+    height: 800px;
+    width: 100%;
+    background-image: url("../imgs/header.png");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.header .text {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.header .text h1 {
+    color: #6C3428;
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.header .text p {
+    color: #6C3428;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.el-small {
+    background: linear-gradient(180.44deg, #6C3428 0.33%, #BE8C63 99.57%);
+    font-size: 120px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* End header Section */
